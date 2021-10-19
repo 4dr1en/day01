@@ -1,0 +1,8 @@
+  822  touch test2 test4
+  823  chmod 664 test4 test2
+  824  touch -t207701010000.00 test0
+  825  touch -t207701010000.00 test0 test1 test2 test3 test4test5
+  826  ls -l
+  827  touch -t207701010000.00 test0 test1 test2 test3 test4
+
+
