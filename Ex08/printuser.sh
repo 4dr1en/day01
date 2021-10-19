@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat /etc/passwd | cut -d':' -f1
+cat /etc/passwd | cut -d':' -f1 | tr "\n" " " && echo ''

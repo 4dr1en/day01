@@ -1,1 +1,1 @@
-alias meteoLyon="curl http://wttr.in"
+alias meteoLyon="curl http://wttr.in/lyon"
