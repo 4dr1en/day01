@@ -1,8 +1,16 @@
-  822  touch test2 test4
-  823  chmod 664 test4 test2
-  824  touch -t207701010000.00 test0
-  825  touch -t207701010000.00 test0 test1 test2 test3 test4test5
-  826  ls -l
-  827  touch -t207701010000.00 test0 test1 test2 test3 test4
+  913  touch test2 test4
+  914  mkdir test0 test1 test3 test5
+  915  ls -l
+  916  mkdir test5
+  917  ls -l
+  918  touch -t207701010000.00 test0 test1 test2 test3 test4 test5
+  919  ls -l
+  920  chmod 775 test0
+  921  chmod 744 test1
+  922  chmod 664 test2
+  923  chmod 775 test3
+  924  chmod 664 test4
+  925  chmod 111 test5
+
 
 
